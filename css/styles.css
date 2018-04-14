@@ -1,25 +1,27 @@
 /* Created by Sandeep Kumar */
 
 html {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
 }
 body {
-    font-family: 'Handlee', cursive;
-    font-size: 13pt;
-    background-color: #efefef;
-    padding: 10px;
-    margin: 0;
+  font-family: 'Handlee', cursive;
+  font-size: 21pt;
+  display: block;
+  background-color: #efefef;
+  padding: 10px;
+  margin: 10px;
 }
 h1 {
-    font-size: 15pt;
-    color: #ff0000;
+    font-size: 23pt;
+    letter-spacing: 4px;
+    color: #099fc4;
     text-align: center;
     padding: 18px 0 18px 0;
     margin: 0 0 10px 0;
 }
 h1 span {
-    border: 4px dashed #ff0000;
+    border: 2px dashed #1ab5c4;
     padding: 10px;
 }
 p {
@@ -37,13 +39,14 @@ p {
     border-radius: 10px;
 }
 #header {
-    background-image: url("./image/header.png");
+    background-image: url("/image/header.png");
     background-size: cover;
+    margin: 10px;
 }
 #header img {
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     margin: auto;
 }
 #header p {
@@ -60,17 +63,18 @@ p {
     margin-top: 10px;
 }
 table {
-    width: 100%;
-    font-size: 11pt;
+      width: 100%;
+      padding: 10px;
+      font-size: 19pt;
 }
 table, th, td {
-    border: 2px solid #cecece;
-    border-collapse: collapse;
-    text-align: center;
-    table-layout: fixed;
+      border: 5px solid #1ab5c4;
+      border-collapse: collapse;
+      text-align: center;
+      table-layout: fixed;
 }
 .selected {
-    background-color: #f36f48;
+    background-color: #0080a5;
     font-weight: bold;
     color: white;
 }
@@ -79,19 +83,19 @@ li {
     font-weight: bold;
 }
 progress {
-    width: 70%;
-    height: 20px;
-    color: #3fb6b2;
-    background: #efefef;
+      width: 100%;
+      height: 35px;
+      color: #317784;
+      background: #efefef;
 }
 progress::-webkit-progress-bar {
     background: #efefef;
 }
 progress::-webkit-progress-value {
-    background: #3fb6b2;
+    background: #317784;
 }
 progress::-moz-progress-bar {
-    color: #3fb6b2;
+    color: #317784;
     background: #efefef;
 }
 iframe, audio {
@@ -135,13 +139,6 @@ input, textarea {
     border-radius: 5px;
     width: 70%;
     outline: none;
-}
-.face {
-    transform: scale(0.4);
-    margin: 0 auto;
-    display: block;
-    margin-top: -35px;
-    margin-bottom: -25px;
 }
 #contacts img {
     height: 50px;
