@@ -1,4 +1,4 @@
-/* Created by Sandeep Kumar */
+/* Created by mahmudamen */
 
 html {
     margin: 10;
@@ -40,7 +40,8 @@ p {
 }
 #header {
     background-image: url("/ten/image/header.png");
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
     margin: 10px;
 }
 #header img {
