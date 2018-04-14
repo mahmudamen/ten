@@ -39,7 +39,7 @@ p {
     border-radius: 10px;
 }
 #header {
-    background-image: url("/image/header.png");
+    background-image: url("/ten/image/header.png");
     background-size: cover;
     margin: 10px;
 }
