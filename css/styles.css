@@ -1,19 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
 /* Created by mahmudamen */
-
-html {
-    margin: 10;
-    padding: 10;
-}
 body {
-  font-family: 'Handlee', cursive;
-  font-size: 21pt;
-  display: block;
+  font-family: 'Handlee', cursive ,Arial, Helvetica, sans-serif;
+  font-size: 16pt;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   background-color: #efefef;
   padding: 10px;
   margin: 10px;
 }
 h1 {
-    font-size: 23pt;
+    font-size: 20pt;
+	font-family: serif;
     letter-spacing: 4px;
     color: #099fc4;
     text-align: center;
@@ -39,13 +40,14 @@ p {
     border-radius: 10px;
 }
 #header {
-    background-image: url("/ten/image/header.png");
+    background-image: url("../../image/header.png");
     background-repeat: no-repeat;
-    background-size: auto;
-    margin: 10px;
+    background-size: 100% 100%;
+    margin: 5px;
 }
 #header img {
-    display: block;
+    /* display: flex; */
+    flex-wrap: wrap;
     width: 150px;
     height: 150px;
     margin: auto;
@@ -161,4 +163,57 @@ input, textarea {
     text-align: right;
     padding-bottom: 10px;
     color: grey;
+}
+
+@media screen and (min-width: 351px) and (max-width: 550px){
+#header img {
+    /* display: flex; */
+    flex-wrap: wrap;
+    width: 85px;
+    height: 85px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 12pt;
+	font-family: serif;
+    letter-spacing: 1px;
+    color: #099fc4;
+    text-align: center;
+    padding: 12px 0 12px 0;
+    margin: 0 0 3px 0;
+}
+#header {
+    background-size:100% 100%;
+    margin: 5px;
+	padding:5px;
+}
+body {
+  font-size: 12pt;
+}
+p {
+	font-size:12pt;
+}
+}
+@media screen and (min-width:551px) and (max-width: 750px) {
+#header img {
+    width: 105px;
+    height: 105px;
+    margin: auto;
+}
+h1 {
+    font-size: 18pt;
+    letter-spacing: 2px;
+    padding: 16px 0 16px 0;
+    margin: 0 0 6px 0;
+}
+body {
+  font-size: 14pt;
+}
+p {
+	font-size:14pt;
+}
+}
+@media screen and (min-width:1300px) {
+
 }
